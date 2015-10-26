@@ -1,0 +1,24 @@
+<div class="row">
+  <div ng-include="'partials/_nav.html'"></div>   
+</div>
+<div class="row">
+  <div ng-include="'partials/_header.html'"></div>   
+</div>
+
+<div class="row">
+  <div ng-include="'partials/_left-col.html'"></div>   
+</div>
+
+<div class="row">
+  <div ng-include="'partials/_right-col.html'"></div>   
+</div>
+
+
+<h1>{{ todo.name }}</h1>
+completed: <input type="checkbox" ng-model="todo.completed">
+note: <textarea>{{ todo.note }}</textarea>
+
+
+<div class="row">
+  <div ng-include="'partials/_footer.html'"></div>   
+</div>
